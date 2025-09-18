@@ -1,7 +1,7 @@
 const { Client, GatewayIntentBits, ActivityType } = require("discord.js");
 const fetch = require("node-fetch");
 
-// Konfiguracja z Environment Variables
+// Environment Variables
 const token = process.env.DISCORD_TOKEN;
 const serverIP = process.env.SCP_IP;
 const serverPort = process.env.SCP_PORT;
@@ -38,3 +38,4 @@ client.once("ready", () => {
 });
 
 client.login(token);
+
