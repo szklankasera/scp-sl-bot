@@ -1,0 +1,2 @@
+# scp-sl-bot
+bot
