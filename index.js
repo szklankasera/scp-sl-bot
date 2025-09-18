@@ -1,7 +1,7 @@
-import { Client, GatewayIntentBits, ActivityType } from "discord.js";
-import fetch from "node-fetch";
+const { Client, GatewayIntentBits, ActivityType } = require("discord.js");
+const fetch = require("node-fetch");
 
-// Konfiguracja z Environment Variables (Railway > Variables)
+// Konfiguracja z Environment Variables
 const token = process.env.DISCORD_TOKEN;
 const serverIP = process.env.SCP_IP;
 const serverPort = process.env.SCP_PORT;
