@@ -1,7 +1,7 @@
 {
-  "name": "scp-sl-bot",
+  "name": "Tenebrae",
   "version": "1.0.0",
-  "description": "Discord bot pokazujący liczbę graczy na serwerze SCP:SL",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
