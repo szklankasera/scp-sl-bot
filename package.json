@@ -1,0 +1,13 @@
+{
+  "name": "scp-sl-bot",
+  "version": "1.0.0",
+  "description": "Discord bot pokazujący liczbę graczy na serwerze SCP:SL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.2",
+    "node-fetch": "^3.3.2"
+  }
+}
